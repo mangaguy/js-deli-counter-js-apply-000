@@ -7,8 +7,10 @@ function takeANumber (katzDeliLine, name) {
   return numberTaken
 }
 
+var numberinLine = 0
+
+
 function takeANumber (katzDeliLine) {
-  var numberinLine = 0
   numberinLine++
   katzDeliLine.push(numberinLine)
   return "Welcome, " + "You are number " + numberinLine + "."
