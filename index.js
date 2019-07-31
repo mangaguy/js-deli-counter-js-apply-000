@@ -7,6 +7,10 @@ function takeANumber (katzDeliLine, name) {
   return numberTaken
 }
 
+function takeANumber (katzDeliLine) {
+  
+}
+
 function nowServing (katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var firstinLine = katzDeliLine[0]
